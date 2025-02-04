@@ -4,7 +4,7 @@ const app = express();
 
 app.use(cors());
 
-app.get('/data', (req, res) => {
+app.get('/', (req, res) => {
     const d = new Date();
     const data = {
         email: "danlewismuriuki2@gmail.com",
